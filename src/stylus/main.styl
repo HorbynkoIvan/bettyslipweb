@@ -1,0 +1,116 @@
+/** Stylus Styles */
+@import '../../node_modules/vuetify/src/stylus/settings/_colors'
+@import 'variables.styl'
+
+.center
+  margin auto
+  width 60%
+
+.betty_background
+  background-color $betty-dark !important
+
+.betty_btn_light
+    font-size $betty-text
+    color $betty-active !important
+    background-color $betty-light !important
+
+.a
+  color $betty-active
+
+$theme := {
+  primary: $betty-light
+  topnavtext: $betty-dark
+  mainbg: $betty-dark
+  accent: $betty-light
+  secondary: $betty-dark
+  info: $betty-light
+  warning: $amber.darken-2
+  error: $red.accent-4
+  success: $green.lighten-2
+  bonuscard: $grey.lighten-4
+  bonusbutton: $grey.darken-4
+  watchbutton: $grey.darken-4
+  giveawaycard: $orange.lighten-2
+  claimbutton: $teal.lighten-2
+  giveawaybutton: $teal.lighten-2
+  signinbutton: $teal.lighten-2
+  signupbutton: $teal.lighten-2
+  authcard: $orange.lighten-2
+  footer: $betty-dark
+  innernav: $orange.lighten-4
+  bonusnav: $brown.lighten-4
+  topbar: $betty-dark
+  tabtext: $grey.darken-4
+  schedulecard: $orange.lighten-4
+  streamercard: $betty-dark
+}
+
+@import '../../node_modules/vuetify/src/stylus/main'
+
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+
+@-moz-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.application--light .input-group:not(.input-group--error) label {
+  color: #bea67c!important;
+}
+.application--light .input-group:not(.input-group--error) .input-group__details:before {
+  background-color: #bea67c!important;
+}
+.application--light .input-group input, .application--light .input-group textarea {
+  color: #bea67c!important;
+}
+  .input-group--required.input-group--focused label:after{
+    color: #bea67c!important;
+  }
+.input-group--text-field input, .input-group--text-field textarea {
+  caret-color: #bea67c!important;
+}
+.input-group__details:after {
+  background-color: #bea67c!important;
+}
+.input-group.input-group--error label, .input-group.input-group--error .input-group__input .icon {
+  color: #bea67c!important;
+}
+.input-group.input-group--error .input-group__details:after, .input-group.input-group--error .input-group__details:before {
+  background-color: #bea67c!important;
+}
+.input-group.input-group--error input, .input-group.input-group--error textarea {
+  caret-color: #bea67c!important;
+}

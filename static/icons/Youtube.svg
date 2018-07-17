@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Register" transform="translate(-721.000000, -1694.000000)" fill-rule="nonzero" fill="#BEA67C">
+            <g id="social-icons" transform="translate(611.000000, 1694.000000)">
+                <g id="Youtube" transform="translate(110.000000, 0.000000)">
+                    <path d="M20.30525,17.20775 L16.37475,15.37375 C16.03175,15.2145 15.75,15.393 15.75,15.77275 L15.75,19.22725 C15.75,19.607 16.03175,19.7855 16.37475,19.62625 L20.3035,17.79225 C20.64825,17.63125 20.64825,17.36875 20.30525,17.20775 Z M17.5,0.7 C8.2215,0.7 0.7,8.2215 0.7,17.5 C0.7,26.7785 8.2215,34.3 17.5,34.3 C26.7785,34.3 34.3,26.7785 34.3,17.5 C34.3,8.2215 26.7785,0.7 17.5,0.7 Z M17.5,24.325 C8.9005,24.325 8.75,23.54975 8.75,17.5 C8.75,11.45025 8.9005,10.675 17.5,10.675 C26.0995,10.675 26.25,11.45025 26.25,17.5 C26.25,23.54975 26.0995,24.325 17.5,24.325 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

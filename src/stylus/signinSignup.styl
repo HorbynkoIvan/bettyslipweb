@@ -1,0 +1,59 @@
+@import 'variables.styl'
+@import 'main.styl'
+
+$betty-button-height = 35px
+$betty-button-side-padding = 50px
+
+.auth_form_logo
+  position: absolute
+  top: 115px
+  left: 50%
+  width w = 200px
+  height h = 120px
+  margin-left -(w / 2)
+  z-index: 1
+  background-color $betty-dark
+
+
+.auth_meta_text
+  color $betty-light
+  margin-bottom 5px
+  font-size $betty-meta-info
+
+.auth_form_card
+  background-color $betty-dark
+  border-radius 3px
+  border solid 3px $betty-light
+
+.auth_primary_btn
+  height $betty-button-height
+  padding-left $betty-button-side-padding
+  padding-right $betty-button-side-padding
+  font-size $betty-text
+  color $betty-light
+  background-color $betty-light !important
+
+
+.auth_secondary_btn
+  background-color $betty-dark !important
+  border 3px solid $betty-light
+  color $betty-light !important
+  padding-left $betty-button-side-padding
+  padding-right $betty-button-side-padding
+
+.auth_input label
+  color $betty-light !important
+
+.card
+  background-color $betty-dark !important
+
+/*.application--light .input-group input
+  color $betty-light
+
+.application--light .input-group:not(.input-group--error) label
+  color $betty-light
+
+.application--light .input-group:not(.input-group--error) .input-group__details:before
+  background-color $betty-light*/
+
+
